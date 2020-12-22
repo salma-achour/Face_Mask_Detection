@@ -7,7 +7,7 @@ This project aims to detect weather a person is wearing a face mask or not to do
 ## The Results
 ![Alt Text](result.gif)
 
-# The Dataset
+## The Dataset
 The dataset used in a kaggle dataset that can be found [here](https://www.kaggle.com/omkargurav/face-mask-dataset) or in the `Data` folder of this repository.
 
 The dataset is composed of 2 folders:
@@ -32,9 +32,6 @@ The dataset is composed of 2 folders:
   <img src="Data/without_mask/0_0_benxi_0129.jpg" width="100" /> 
   <img src="Data/without_mask/0_0_caiyilin_0050.jpg" width="100" />
 </p>
-
-## Data Preprocessing and augmentation
-## Model Training
 
 ## Model Evaluation
 __Train/Validation loss and accuracy:__
