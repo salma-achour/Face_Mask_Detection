@@ -4,6 +4,9 @@ This project aims to detect weather a person is wearing a face mask or not to do
 * The pre-trained model `MobileNetV2` was used to detect the existance or not of a mask.
 * The pre-trained model `FaceNet` or `GoogleNet` was used for the face detection part.
 
+## The Results
+![Alt Text](result.gif)
+
 # The Dataset
 The dataset used in a kaggle dataset that can be found [here](https://www.kaggle.com/omkargurav/face-mask-dataset) or in the `Data` folder of this repository.
 
@@ -30,4 +33,15 @@ The dataset is composed of 2 folders:
   <img src="Data/without_mask/0_0_caiyilin_0050.jpg" width="100" />
 </p>
 
-![Alt Text](result.gif)
+## Data Preprocessing and augmentation
+## Model Training
+
+## Model Evaluation
+__Train/Validation loss and accuracy:__
+
+![plot](evaluation_plot.png)
+
+__Evaluation Matrix__
+
+![matrix](evaluation_matrix.png)
+
